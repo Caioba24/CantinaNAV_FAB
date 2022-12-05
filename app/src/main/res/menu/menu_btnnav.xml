@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ic_Home"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Inicio"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ic_search"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="Pesquisar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ic_test"
+        android:title="Teste"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ic_pedidos"
+        android:icon="@drawable/ic_baseline_pedidos"
+        android:title="Pedidos"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/ic_perfil"
+        android:icon="@drawable/ic_baseline_perfil"
+        android:title="Perfil" />
+</menu>

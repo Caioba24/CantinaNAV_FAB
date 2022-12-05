@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CantinaToshio" parent="Theme.AppCompat">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#fff</item>
+        <item name="colorPrimaryDark">#ffd900</item>
+        <item name="colorAccent">@color/teal_200</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Light.CantinaToshio" parent="Theme.MaterialComponents.DayNight">>
+        <!-- Primary brand color. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">#ffd200</item>
+        <item name="colorPrimaryVariant">#bf8500</item>
+        <item name="colorOnPrimary">#fff</item>
+
+        <item name="colorSecondary">#000</item>
+        <item name="colorSecondaryVariant">#ccc</item>
+        <item name="colorOnSecondary">#fff</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+</resources>

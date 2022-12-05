@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+
+    </group>
+    <group>
+        <item android:title="Perfil">
+            <menu>
+                <item
+                    android:id="@+id/mImport"
+                    android:checked="true"
+                    android:icon="@drawable/ic_baseline_info"
+                    android:title="informacoes da conta" />
+                <item
+                    android:id="@+id/mGallery"
+                    android:icon="@drawable/ic_baseline_settings"
+                    android:title="Configuracoes" />
+                <item
+                    android:id="@+id/mSlideShow"
+                    android:icon="@drawable/ic_baseline_exit_to_app"
+                    android:title="Sair"
+                    />
+            </menu>
+        </item>
+    </group>
+    <group>
+        <item android:title="Sobre o Aplicativo">
+            <menu>
+                <item
+                    android:id="@+id/mShare"
+                    android:icon="@drawable/ic_baseline_settings_app"
+                    android:title="Configuracoes" />
+                <item
+                    android:id="@+id/mSend"
+                    android:icon="@drawable/ic_baseline_question_mark"
+                    android:title="Suporte" />
+            </menu>
+        </item>
+    </group>
+</menu>
