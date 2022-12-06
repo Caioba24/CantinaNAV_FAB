@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Cantina Toshio</string>
+    <string name="nav_open">CloseNav</string>
+    <string name="nav_close">OpenNav</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

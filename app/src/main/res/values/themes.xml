@@ -8,7 +8,20 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.Light.CantinaToshio" parent="Theme.MaterialComponents.DayNight">>
+    <style name="Theme.Light.CantinaToshio" parent="Theme.MaterialComponents.DayNight">
+        <!-- Primary brand color. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">#ffd200</item>
+        <item name="colorPrimaryVariant">#bf8500</item>
+        <item name="colorOnPrimary">#fff</item>
+
+        <item name="colorSecondary">#000</item>
+        <item name="colorSecondaryVariant">#ccc</item>
+        <item name="colorOnSecondary">#fff</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Sem_Barra" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="android:windowActionBar">false</item>
         <item name="colorPrimary">#ffd200</item>

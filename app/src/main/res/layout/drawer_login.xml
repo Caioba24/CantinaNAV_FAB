@@ -34,6 +34,9 @@
         android:layout_height="match_parent"
         android:background="@color/grayapp"
         android:layout_gravity="start"
+        app:itemIconTint="#706A6A"
+        app:itemTextColor="@color/black"
+        app:itemIconSize="30dp"
         app:headerLayout="@layout/header_nav"
         app:menu="@menu/menu_nav" />
 
