@@ -12,46 +12,43 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:paddingStart="20dp"
-        android:paddingBottom="20dp"
         android:paddingTop="20dp"
+        android:paddingBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/circleImageView"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/caioba"
+            android:src="@drawable/ic_baseline_perfil"
+            app:civ_border_color="#000000"
             app:civ_border_width="1dp"
-            app:civ_border_color="#FFFFFF"
             app:flow_horizontalAlign="start"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHeight_percent="0.75"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintWidth_percent="0.22" />
+             />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:fontFamily="@font/poppinsbold"
-            android:textColor="#3A3939"
-            android:text="Caio"
-            android:layout_margin="10dp"
+            android:text="Seu Nome"
             android:textAlignment="textStart"
+            android:textColor="#4A4646"
             android:textSize="25sp"
-            app:layout_constraintStart_toEndOf="@+id/circleImageView"
-            app:layout_constraintTop_toTopOf="@+id/circleImageView" />
+            app:layout_constraintStart_toStartOf="@+id/circleImageView"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppinsmedium"
-            android:text="dipietroapg@gmail.com"
+            android:text="Seu e-mail"
             android:textColor="#595656"
             android:textSize="15sp"
             app:layout_constraintStart_toStartOf="@+id/textView"

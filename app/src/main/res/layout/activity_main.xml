@@ -55,6 +55,7 @@
             android:layout_alignParentEnd="true"
             android:backgroundTint="@color/yellowapp"
             android:src="@drawable/ic_baseline_shopping_cart"
+            android:contentDescription="@string/carrinho"
             app:borderWidth="0dp"
             app:layout_anchor="@id/BtnNavAux"
             app:tint="#423F3F" />

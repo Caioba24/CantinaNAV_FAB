@@ -5,41 +5,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
+        android:layout_height="wrap_content">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/idToolBar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:navigationIcon="@drawable/ic_baseline_menu"
-            app:navigationIconTint="#000000"
             app:layout_scrollFlags="scroll|enterAlways"
-            >
+            app:navigationIcon="@drawable/ic_baseline_menu"
+            app:navigationIconTint="#000000">
+
             <ImageView
                 android:layout_width="60dp"
-                android:layout_height="49dp"
-                android:src="@drawable/mcacacis"
-                android:scaleType="fitCenter"
+                android:layout_height="50dp"
                 android:layout_gravity="center"
-                />
+                android:scaleType="fitCenter"
+                android:src="@drawable/mcacacis" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pede Aí"
-                android:paddingTop="5dp"
-                android:fontFamily="@font/poppinsmedium"
                 android:layout_gravity="center"
-                />
+                android:fontFamily="@font/poppinsmedium"
+                android:paddingTop="5dp"
+                android:text="Pede Aí" />
 
             <View
                 android:layout_width="25dp"
                 android:layout_height="25dp"
-                android:background="@drawable/ic_baseline_search"
-                android:backgroundTint="#000000"
                 android:layout_gravity="end"
                 android:layout_marginEnd="10dp"
+                android:background="@drawable/ic_baseline_search"
                 />
 
         </com.google.android.material.appbar.MaterialToolbar>
