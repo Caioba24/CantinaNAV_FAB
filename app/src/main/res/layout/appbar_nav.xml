@@ -14,11 +14,35 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             app:navigationIcon="@drawable/ic_baseline_menu"
-            app:navigationIconTint="#fff"
+            app:navigationIconTint="#000000"
             app:layout_scrollFlags="scroll|enterAlways"
-            android:background="@drawable/finalprovisorio"
-            style="@style/Widget.MaterialComponents.Toolbar.Primary"
-            />
+            >
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="49dp"
+                android:src="@drawable/mcacacis"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pede Aí"
+                android:paddingTop="5dp"
+                android:fontFamily="@font/poppinsmedium"
+                android:layout_gravity="center"
+                />
+
+            <View
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/ic_baseline_search"
+                android:backgroundTint="#000000"
+                android:layout_gravity="end"
+                android:layout_marginEnd="10dp"
+                />
+
+        </com.google.android.material.appbar.MaterialToolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 

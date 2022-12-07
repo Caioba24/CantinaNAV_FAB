@@ -76,9 +76,9 @@ public class MainActivity extends AppCompatActivity
                     case R.id.ic_pedidos:
                         getSupportFragmentManager().beginTransaction().replace(R.id.FrameContainer, pedidosFragment).commit();
                         return true;
-                    case R.id.ic_perfil:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.FrameContainer, perfilFragment).commit();
-                        return true;
+                    //case R.id.ic_perfil:
+                       // getSupportFragmentManager().beginTransaction().replace(R.id.FrameContainer, perfilFragment).commit();
+                        //return true;
                 }
 
                 return false;
