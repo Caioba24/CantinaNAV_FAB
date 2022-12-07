@@ -10,11 +10,11 @@
                     android:id="@+id/mImport"
                     android:checked="true"
                     android:icon="@drawable/ic_baseline_info"
-                    android:title="informacoes da conta" />
+                    android:title="informações da conta" />
                 <item
                     android:id="@+id/mGallery"
                     android:icon="@drawable/ic_baseline_settings"
-                    android:title="Configuracoes" />
+                    android:title="Configurações" />
                 <item
                     android:id="@+id/mSlideShow"
                     android:icon="@drawable/ic_baseline_exit_to_app"
@@ -24,12 +24,12 @@
         </item>
     </group>
     <group>
-        <item android:title="Sobre o Aplicativo">
+        <item android:title="Sobre o aplicativo">
             <menu>
                 <item
                     android:id="@+id/mShare"
                     android:icon="@drawable/ic_baseline_settings_app"
-                    android:title="Configuracoes" />
+                    android:title="Configurações do app" />
                 <item
                     android:id="@+id/mSend"
                     android:icon="@drawable/ic_baseline_question_mark"
